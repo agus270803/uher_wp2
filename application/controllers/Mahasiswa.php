@@ -20,7 +20,7 @@ class Mahasiswa extends CI_Controller {
          'nim' => $this->input->post('nim'),
          'nama' => $this->input->post('nama'),
          'kelas' => $this->input->post('kelas'),
-         'prodi' => $this->input->post('prodi'),
+         'prodi' => $this->input->post('proi'),
          'email' => $this->input->post('email'),
       );
       $this->Model_mahasiswa->add($data);
